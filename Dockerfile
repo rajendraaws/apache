@@ -1,3 +1,4 @@
 FROM ubuntu
-RUN touch hello how are you
+RUN touch rajendra
+echo "hello h r u" > /var/www/html/index.html
 CMD /bin/bash
